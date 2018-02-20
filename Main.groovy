@@ -1,5 +1,5 @@
 @RestController
-class HelloworldController {
+class MainController {
   @RequestMapping("/")
   String home() {
     return "Docker Spring Boot Groovy Hello!"
